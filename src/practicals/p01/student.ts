@@ -5,6 +5,7 @@ export class Student {
         this.firstname=firstname;
         this.lastname=lastname
     }
-    printName(message?:string){
+    printName(){
     console.log(this.firstname,this.lastname);
-  }}
+  }
+}
