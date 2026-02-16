@@ -6,8 +6,6 @@ class Person {
     constructor(age: number) {
         this.age = age;
     }
-    getFullname(){
-
-    }
 }
+
 export class Person {}
