@@ -4,8 +4,8 @@ export class Person {private age?: number;
 
     constructor(age: number,firstName:string,lastName=string) {
         this.age = age;
-        this.firstName=firstName;
-        this.lastName=lastName;
+        this.firstname=firstName;
+        this.lastname=lastName;
     }
     setAge(age:number){}
     getAge(age:number){return this.age}
